@@ -18,7 +18,7 @@ import java.util.function.Function;
 public class EarModBlocks {
 	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(EarMod.MODID);
 
-	public static final DeferredBlock<Block> RUBYORE = register("rubyore", RubyoreBlock::new);
+		public static final DeferredBlock<Block> RUBYORE = register("rubyore", RubyoreBlock::new);
 	public static final DeferredBlock<Block> DEEPSLATE_RUBY_ORE = register("deepslate_ruby_ore", DeepslateRubyOreBlock::new);
 
 	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
@@ -28,6 +28,6 @@ public class EarModBlocks {
 	}
 
 	private static <B extends Block> void registerBlockItem(String name, DeferredBlock<B> block) {
-		EarModItems.REGISTRY.registerItem(name, props -> new BlockItem(block.get(), new Item.Properties()));
+		EarModItems.REGISTRY.registerItem(name, props -> new BlockItem(block.get(), props));
 	}
 }
