@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ear:block/ruby_block",
+    "up": "ear:block/ruby_block",
+    "north": "ear:block/ruby_block",
+    "east": "ear:block/ruby_block",
+    "south": "ear:block/ruby_block",
+    "west": "ear:block/ruby_block",
+    "particle": "ear:block/ruby_block"
+  },
+  "render_type": "solid"
+}

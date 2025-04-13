@@ -61,5 +61,3 @@ dependencies {
     // Use `implementation` instead of `modImplementation`
     implementation "maven.modrinth:fusion-connected-textures:1.2.3-neoforge-mc1.21.3"
 }
-
-apply from: 'mcreator.gradle'

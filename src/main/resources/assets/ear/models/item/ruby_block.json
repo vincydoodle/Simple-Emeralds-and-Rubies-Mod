@@ -1,5 +1,5 @@
 {
-  "parent": "ear:block/ruby_ore",
+  "parent": "ear:block/ruby_block",
   "display": {
     "thirdperson": {
       "rotation": [

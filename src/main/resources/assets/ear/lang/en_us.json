@@ -18,7 +18,8 @@
   "item.ear.quartz_axe": "Quartz Axe",
   "item.ear.quartz_sword": "Quartz Sword",
   "item.ear.amethyst_axe": "Amethyst Axe",
-  "item.ear.ruby_ore": "Ruby Ore",
+  "item.ear.rubyore": "Ruby Ore",
   "item.ear.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "item.ear.ruby": "Ruby"
+  "item.ear.ruby": "Ruby",
+  "item.ear.ruby_block": "Ruby Block"
 }

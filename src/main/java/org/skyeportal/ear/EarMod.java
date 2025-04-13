@@ -46,6 +46,8 @@ public class EarMod {
 
 		EarModTabs.REGISTRY.register(modEventBus);
 
+		LOGGER.atInfo().log("Emeralds and Rubies (ear) Initialized");
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

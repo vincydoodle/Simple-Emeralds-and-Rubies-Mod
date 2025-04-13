@@ -38,6 +38,13 @@ public class EarModTabs {
 			tabData.accept(EarModItems.AMETHYST_SWORD.get());
 			tabData.accept(EarModItems.COPPER_SWORD.get());
 			tabData.accept(EarModItems.QUARTZ_SWORD.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(EarModItems.RUBY.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(EarModBlocks.RUBYORE.get());
+			tabData.accept(EarModBlocks.DEEPSLATE_RUBY_ORE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(EarModBlocks.RUBY_BLOCK.get());
 		}
 	}
 }
