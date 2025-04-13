@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="ear"
+version="1.0.0"
+displayName="Emeralds and Rubies"
+displayURL=""
+credits=""
+authors="Vincent Bradford"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.ear]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.3.66,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ear]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.3]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ear]]
+modId="fusion"
+type="required"
+versionRange="[1.0.0,)"
+ordering="NONE"
+side="CLIENT"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

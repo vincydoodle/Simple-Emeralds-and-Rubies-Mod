@@ -1,0 +1,48 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": "CUSTOM:OxidizedCopperIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.OXIDIZED_COPPER_DOOR"
+    },
+    "name": "oxidized_copper_door",
+    "namespace": "mod"
+  }
+}

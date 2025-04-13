@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ear:block/deepslate_ruby_ore",
+    "up": "ear:block/deepslate_ruby_ore",
+    "north": "ear:block/deepslate_ruby_ore",
+    "east": "ear:block/deepslate_ruby_ore",
+    "south": "ear:block/deepslate_ruby_ore",
+    "west": "ear:block/deepslate_ruby_ore",
+    "particle": "ear:block/deepslate_ruby_ore"
+  },
+  "render_type": "solid"
+}

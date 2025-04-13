@@ -1,0 +1,7 @@
+.DS_Store
+.eclipse/
+.gradle/
+.idea/
+.mcreator/
+build
+run

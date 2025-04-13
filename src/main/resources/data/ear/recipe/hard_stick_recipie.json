@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:honey_bottle",
+    "minecraft:stick",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "ear:hard_stick",
+    "count": 2
+  }
+}
