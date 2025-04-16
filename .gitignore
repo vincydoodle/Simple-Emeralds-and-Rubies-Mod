@@ -2,6 +2,6 @@
 .eclipse/
 .gradle/
 .idea/
-.mcreator/
 build
 run
+
