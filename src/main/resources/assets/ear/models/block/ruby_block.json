@@ -1,4 +1,6 @@
 {
+  "loader": "fusion:model",
+  "type": "connecting",
   "parent": "block/cube",
   "textures": {
     "down": "ear:block/ruby_block",
@@ -9,5 +11,10 @@
     "west": "ear:block/ruby_block",
     "particle": "ear:block/ruby_block"
   },
-  "render_type": "solid"
+  "render_type": "solid",
+  "connections": [
+    {
+      "type": "is_same_block"
+    }
+  ]
 }
