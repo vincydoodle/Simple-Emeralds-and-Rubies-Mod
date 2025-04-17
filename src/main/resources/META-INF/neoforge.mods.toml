@@ -30,7 +30,7 @@ authors="Vincent Bradford"
 [[dependencies.ear]]
 modId="fusion"
 type="required"
-versionRange="[1.0.0,)"
+versionRange="[1.2.3,)"
 ordering="NONE"
 side="CLIENT"
 
