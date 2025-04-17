@@ -18,8 +18,18 @@
   "item.ear.quartz_axe": "Quartz Axe",
   "item.ear.quartz_sword": "Quartz Sword",
   "item.ear.amethyst_axe": "Amethyst Axe",
+  "item.ear.emerald_sword": "Emerald Sword",
+  "item.ear.emerald_hoe": "Emerald Hoe",
+  "item.ear.emerald_pickaxe": "Emerald Pickaxe",
+  "item.ear.emerald_shovel": "Emerald Shovel",
+  "item.ear.emerald_axe": "Emerald Axe",
   "item.ear.rubyore": "Ruby Ore",
   "item.ear.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "item.ear.ruby": "Ruby",
-  "item.ear.ruby_block": "Ruby Block"
+  "item.ear.ruby_block": "Ruby Block",
+  "item.ear.ruby_sword": "Ruby Sword",
+  "item.ear.ruby_hoe": "Ruby Hoe",
+  "item.ear.ruby_pickaxe": "Ruby Pickaxe",
+  "item.ear.ruby_shovel": "Ruby Shovel",
+  "item.ear.ruby_axe": "Ruby Axe"
 }

@@ -4,7 +4,6 @@
  */
 package org.skyeportal.ear.init;
 
-import net.minecraft.world.item.BlockItem;
 import org.skyeportal.ear.item.*;
 import org.skyeportal.ear.EarMod;
 
@@ -31,17 +30,22 @@ public class EarModItems {
 	public static final DeferredItem<Item> COPPER_SHOVEL = registerItem("copper_shovel", CopperShovelItem::new);
 	public static final DeferredItem<Item> COPPER_HOE = registerItem("copper_hoe", CopperHoeItem::new);
 	public static final DeferredItem<Item> HARD_STICK = registerItem("hard_stick", HardStickItem::new);
-	public static final DeferredItem<Item> QUARTZ_PICKAXE = registerItem("quartz_pickaxe", QuartzPickaxeItem::new);
-	public static final DeferredItem<Item> QUARTZ_AXE = registerItem("quartz_axe", QuartzAxeItem::new);
-	public static final DeferredItem<Item> QUARTZ_SWORD = registerItem("quartz_sword", QuartzSwordItem::new);
-	public static final DeferredItem<Item> QUARTZ_SHOVEL = registerItem("quartz_shovel", QuartzShovelItem::new);
-	public static final DeferredItem<Item> QUARTZ_HOE = registerItem("quartz_hoe", QuartzHoeItem::new);
+	public static final DeferredItem<Item> QUARTZ_PICKAXE = registerItem("quartz_pickaxe", RubyPickaxeItem::new);
+	public static final DeferredItem<Item> QUARTZ_AXE = registerItem("quartz_axe", RubyAxeItem::new);
+	public static final DeferredItem<Item> QUARTZ_SWORD = registerItem("quartz_sword", RubySwordItem::new);
+	public static final DeferredItem<Item> QUARTZ_SHOVEL = registerItem("quartz_shovel", RubyShovelItem::new);
+	public static final DeferredItem<Item> QUARTZ_HOE = registerItem("quartz_hoe", RubyHoeItem::new);
 	public static final DeferredItem<Item> EMERALD_PICKAXE = registerItem("emerald_pickaxe", EmeraldPickaxeItem::new);
 	public static final DeferredItem<Item> EMERALD_AXE = registerItem("emerald_axe", EmeraldAxeItem::new);
 	public static final DeferredItem<Item> EMERALD_SWORD = registerItem("emerald_sword", EmeraldSwordItem::new);
 	public static final DeferredItem<Item> EMERALD_SHOVEL = registerItem("emerald_shovel", EmeraldShovelItem::new);
 	public static final DeferredItem<Item> EMERALD_HOE = registerItem("emerald_hoe", EmeraldHoeItem::new);
 	public static final DeferredItem<Item> RUBY = registerItem("ruby", RubyItem::new);
+	public static final DeferredItem<Item> RUBY_PICKAXE = registerItem("ruby_pickaxe", RubyPickaxeItem::new);
+	public static final DeferredItem<Item> RUBY_AXE = registerItem("ruby_axe", RubyAxeItem::new);
+	public static final DeferredItem<Item> RUBY_SWORD = registerItem("ruby_sword", RubySwordItem::new);
+	public static final DeferredItem<Item> RUBY_SHOVEL = registerItem("ruby_shovel", RubyShovelItem::new);
+	public static final DeferredItem<Item> RUBY_HOE = registerItem("ruby_hoe", RubyHoeItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

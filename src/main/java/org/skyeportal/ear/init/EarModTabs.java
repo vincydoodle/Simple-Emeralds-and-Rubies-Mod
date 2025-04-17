@@ -34,12 +34,23 @@ public class EarModTabs {
 			tabData.accept(EarModItems.QUARTZ_AXE.get());
 			tabData.accept(EarModItems.QUARTZ_SHOVEL.get());
 			tabData.accept(EarModItems.QUARTZ_HOE.get());
+			tabData.accept(EarModItems.EMERALD_PICKAXE.get());
+			tabData.accept(EarModItems.EMERALD_AXE.get());
+			tabData.accept(EarModItems.EMERALD_SHOVEL.get());
+			tabData.accept(EarModItems.EMERALD_HOE.get());
+			tabData.accept(EarModItems.RUBY_PICKAXE.get());
+			tabData.accept(EarModItems.RUBY_AXE.get());
+			tabData.accept(EarModItems.RUBY_SHOVEL.get());
+			tabData.accept(EarModItems.RUBY_HOE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(EarModItems.AMETHYST_SWORD.get());
 			tabData.accept(EarModItems.COPPER_SWORD.get());
 			tabData.accept(EarModItems.QUARTZ_SWORD.get());
+			tabData.accept(EarModItems.EMERALD_SWORD.get());
+			tabData.accept(EarModItems.RUBY_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(EarModItems.RUBY.get());
+			tabData.accept(EarModItems.HARD_STICK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(EarModBlocks.RUBYORE.get());
 			tabData.accept(EarModBlocks.DEEPSLATE_RUBY_ORE.get());
